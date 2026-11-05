@@ -1,0 +1,34 @@
+{
+  "name": "swarm-reveal",
+  "version": "1.0.0",
+  "description": "Rebuild a live web page in front of the visitor with a swarm of AI cursors \u2014 without breaking clicks, forms, menus or scrolling.",
+  "license": "MIT",
+  "main": "dist/swarm-reveal.manual.js",
+  "browser": "dist/swarm-reveal.js",
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node build.js"
+  },
+  "keywords": [
+    "animation",
+    "page-transition",
+    "swarm",
+    "ai",
+    "reveal",
+    "vanilla-js"
+  ],
+  "author": "kndvoid",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kndvoid/swarm-reveal.git"
+  },
+  "homepage": "https://github.com/kndvoid/swarm-reveal#readme",
+  "bugs": {
+    "url": "https://github.com/kndvoid/swarm-reveal/issues"
+  }
+}
